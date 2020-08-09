@@ -1,0 +1,424 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 6804,
+        "MNTN_CODE" : "491103404",
+        "MNTN_NM" : "궁대",
+        "PMNTN_NM" : "수산리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.14,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 2,
+        "PMNTN_GODN" : 2,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491103404"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              183084.98259999976,
+              93512.811200000346
+            ],
+            [
+              183085.61899999995,
+              93521.257399998605
+            ],
+            [
+              183085.61420000158,
+              93528.559900002554
+            ],
+            [
+              183085.76099999994,
+              93532.707800002769
+            ],
+            [
+              183089.45950000081,
+              93536.550000006333
+            ],
+            [
+              183091.68759999983,
+              93539.684900000691
+            ],
+            [
+              183096.36820000224,
+              93541.451199999079
+            ],
+            [
+              183101.77130000107,
+              93541.585899999365
+            ],
+            [
+              183106.71900000237,
+              93541.33150000684
+            ],
+            [
+              183109.60460000113,
+              93543.50200000219
+            ],
+            [
+              183113.63580000028,
+              93546.179000001401
+            ],
+            [
+              183116.77420000173,
+              93548.757699999958
+            ],
+            [
+              183120.97050000262,
+              93550.103500001132
+            ],
+            [
+              183125.57410000078,
+              93553.11630000174
+            ],
+            [
+              183132.23800000176,
+              93558.890200002119
+            ],
+            [
+              183135.43530000187,
+              93563.243400003761
+            ],
+            [
+              183140.05000000075,
+              93569.856800001115
+            ],
+            [
+              183144.32620000187,
+              93574.341199999675
+            ],
+            [
+              183148.90490000229,
+              93576.318500000983
+            ],
+            [
+              183153.87069999985,
+              93576.354200003669
+            ],
+            [
+              183157.07750000153,
+              93575.550000002608
+            ],
+            [
+              183158.99970000237,
+              93572.447400003672
+            ],
+            [
+              183156.51790000033,
+              93568.285900000483
+            ],
+            [
+              183151.3673000019,
+              93564.681500002742
+            ],
+            [
+              183143.00230000261,
+              93560.230800000951
+            ],
+            [
+              183142.20070000086,
+              93555.434300003573
+            ],
+            [
+              183145.51880000066,
+              93549.139700001106
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SN" : 6805,
+        "MNTN_CODE" : "491103404",
+        "MNTN_NM" : "궁대",
+        "PMNTN_NM" : "수산리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.08,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491103404"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              183145.51880000066,
+              93549.139700001106
+            ],
+            [
+              183142.53959999979,
+              93547.226200001314
+            ],
+            [
+              183140.3591,
+              93544.645800001919
+            ],
+            [
+              183138.92470000219,
+              93543.350599998608
+            ],
+            [
+              183134.90139999986,
+              93539.886100001633
+            ],
+            [
+              183132.52450000122,
+              93536.729300001636
+            ],
+            [
+              183130.48020000011,
+              93533.200799999759
+            ],
+            [
+              183131.09700000007,
+              93527.35000000149
+            ],
+            [
+              183130.52490000334,
+              93522.153599999845
+            ],
+            [
+              183127.42170000076,
+              93514.579300001264
+            ],
+            [
+              183119.61040000059,
+              93512.977800004184
+            ],
+            [
+              183110.48590000067,
+              93512.428899999708
+            ],
+            [
+              183102.79999999981,
+              93513.201500000432
+            ],
+            [
+              183096.47549999971,
+              93512.63590000011
+            ],
+            [
+              183092.32960000169,
+              93513.508300002664
+            ],
+            [
+              183089.79010000359,
+              93510.214400002733
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SN" : 6806,
+        "MNTN_CODE" : "491103404",
+        "MNTN_NM" : "궁대",
+        "PMNTN_NM" : "수산리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.07,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491103404"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              183145.51880000066,
+              93549.139700001106
+            ],
+            [
+              183145.51880000066,
+              93549.139700001106
+            ],
+            [
+              183153.19650000054,
+              93552.520199999213
+            ],
+            [
+              183157.90370000061,
+              93553.510099997744
+            ],
+            [
+              183162.8422000017,
+              93553.878600001335
+            ],
+            [
+              183168.17619999964,
+              93553.01060000062
+            ],
+            [
+              183171.60060000047,
+              93550.813600003719
+            ],
+            [
+              183176.86080000084,
+              93548.776499999687
+            ],
+            [
+              183184.00440000184,
+              93543.503799999133
+            ],
+            [
+              183189.83340000268,
+              93537.810300000012
+            ],
+            [
+              183199.02689999994,
+              93526.218299999833
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

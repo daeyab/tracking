@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".StartHikingActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/top_logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/SmsSOSBtn"
+            android:src="@drawable/ic_baseline_sms_failed_24"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="titletxt"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/myfont"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:id="@+id/titleTxt"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:id="@+id/CallSOSBtn"
+            android:src="@drawable/ic_baseline_call_24"/>
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/hikingMap"
+        android:name="com.naver.maps.map.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시작 시각 : "
+            android:fontFamily="@font/myfont"
+            android:id="@+id/startTimeTxt"
+            android:textSize="20sp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="등산 시간 : "
+            android:id="@+id/hikingTimeTxt"
+            android:fontFamily="@font/myfont"
+            android:textSize="20sp"
+            android:textColor="@color/Black"
+            android:layout_margin="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="취소"
+            android:id="@+id/hikingCancelBtn"
+            android:fontFamily="@font/myfont"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="종료"
+            android:id="@+id/hikingFinishBtn"
+            android:fontFamily="@font/myfont"/>
+
+    </LinearLayout>
+
+</LinearLayout>

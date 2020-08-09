@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:text="time"
+        android:fontFamily="@font/myfont"
+        android:id="@+id/routeTimeTxt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="route"
+        android:textColor="@color/DarkRed"
+        android:fontFamily="@font/myfont"
+        android:id="@+id/routeTotalTxt"/>
+
+    <TextView
+        android:fontFamily="@font/myfont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="cost"
+        android:id="@+id/routeCostTxt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:fontFamily="@font/myfont"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="dist"
+        android:id="@+id/routedistTxt"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/innerRecyclerView"
+        android:fontFamily="@font/myfont"
+        android:background="@color/LightGrey"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,709 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 22960,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "도마동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.02,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 0,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233612.24000000022,
+              414427.2268000003
+            ],
+            [
+              233617.83999999985,
+              414418.05610000156
+            ],
+            [
+              233617.23220000323,
+              414413.00260000117
+            ],
+            [
+              233622.23190000001,
+              414405.99180000089
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SN" : 22961,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "도마동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.05,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233622.23190000001,
+              414405.99180000089
+            ],
+            [
+              233626.21590000391,
+              414409.51429999992
+            ],
+            [
+              233631.02070000023,
+              414412.50720000267
+            ],
+            [
+              233636.56970000081,
+              414417.79839999974
+            ],
+            [
+              233642.95920000132,
+              414420.37719999999
+            ],
+            [
+              233647.26850000024,
+              414418.26960000023
+            ],
+            [
+              233660.17109999899,
+              414406.99200000055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SN" : 22962,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "도마동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.05,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233632.01279999968,
+              414199.65390000306
+            ],
+            [
+              233636.41299999971,
+              414202.59320000187
+            ],
+            [
+              233643.61050000228,
+              414202.88519999944
+            ],
+            [
+              233651.21050000191,
+              414198.60280000232
+            ],
+            [
+              233656.53050000127,
+              414195.85240000114
+            ],
+            [
+              233661.9795000013,
+              414189.23630000278
+            ],
+            [
+              233667.50520000048,
+              414188.24489999935
+            ],
+            [
+              233672.55339999963,
+              414190.86180000007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SN" : 22963,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "도마동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.03,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 0,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233661.07029999979,
+              414368.31450000219
+            ],
+            [
+              233655.06960000098,
+              414374.39970000088
+            ],
+            [
+              233647.02840000298,
+              414375.87670000084
+            ],
+            [
+              233639.09449999966,
+              414371.9682
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "PMNTN_SN" : 22964,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "도마동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.04,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 0,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233639.09449999966,
+              414371.9682
+            ],
+            [
+              233638.15780000109,
+              414376.49420000426
+            ],
+            [
+              233640.30200000014,
+              414381.67300000042
+            ],
+            [
+              233646.15920000058,
+              414387.12800000235
+            ],
+            [
+              233653.09240000043,
+              414389.76590000279
+            ],
+            [
+              233657.16360000055,
+              414397.33920000121
+            ],
+            [
+              233660.17109999899,
+              414406.99200000055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "PMNTN_SN" : 22965,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "변동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.03,
+        "PMNTN_DFFL" : "중간",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 0,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233672.55339999963,
+              414190.86180000007
+            ],
+            [
+              233672.55339999963,
+              414190.86180000007
+            ],
+            [
+              233675.85020000208,
+              414182.88610000163
+            ],
+            [
+              233683.86240000185,
+              414178.09029999934
+            ],
+            [
+              233689.97110000066,
+              414173.09040000103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "PMNTN_SN" : 22966,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "도마동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.04,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 0,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233639.09449999966,
+              414371.9682
+            ],
+            [
+              233634.42669999972,
+              414369.13560000435
+            ],
+            [
+              233627.67410000041,
+              414361.08420000412
+            ],
+            [
+              233619.59750000015,
+              414352.43990000337
+            ],
+            [
+              233612.40990000404,
+              414347.11810000055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "PMNTN_SN" : 22967,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "도마동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.18,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 3,
+        "PMNTN_GODN" : 2,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233661.07029999979,
+              414368.31450000219
+            ],
+            [
+              233657.53200000059,
+              414357.22860000096
+            ],
+            [
+              233657.24860000145,
+              414347.36590000056
+            ],
+            [
+              233656.97709999979,
+              414336.74670000188
+            ],
+            [
+              233656.85440000053,
+              414330.12860000134
+            ],
+            [
+              233655.08890000079,
+              414325.52670000307
+            ],
+            [
+              233653.90300000273,
+              414319.07880000211
+            ],
+            [
+              233651.29160000291,
+              414312.43720000051
+            ],
+            [
+              233650.51540000271,
+              414305.56250000373
+            ],
+            [
+              233651.24550000113,
+              414300.16300000064
+            ],
+            [
+              233652.90170000121,
+              414292.65210000426
+            ],
+            [
+              233656.33490000013,
+              414287.46500000171
+            ],
+            [
+              233658.00950000342,
+              414279.59660000168
+            ],
+            [
+              233656.18570000213,
+              414272.0577000007
+            ],
+            [
+              233652.9824000001,
+              414264.32039999962
+            ],
+            [
+              233653.70470000152,
+              414253.99230000004
+            ],
+            [
+              233656.70600000303,
+              414246.61820000224
+            ],
+            [
+              233660.94990000129,
+              414239.38590000197
+            ],
+            [
+              233664.62000000104,
+              414233.13120000437
+            ],
+            [
+              233666.64530000184,
+              414220.79290000163
+            ],
+            [
+              233669.18910000101,
+              414209.73640000261
+            ],
+            [
+              233670.98870000243,
+              414198.82870000228
+            ],
+            [
+              233672.55339999963,
+              414190.86180000007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "PMNTN_SN" : 22968,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "도마동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.04,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 0,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233660.17109999899,
+              414406.99200000055
+            ],
+            [
+              233668.3088000007,
+              414400.23240000196
+            ],
+            [
+              233668.05750000197,
+              414390.97440000251
+            ],
+            [
+              233667.99430000409,
+              414386.47599999979
+            ],
+            [
+              233666.00160000008,
+              414375.53839999996
+            ],
+            [
+              233662.5374999987,
+              414371.98500000127
+            ],
+            [
+              233661.07029999979,
+              414368.31450000219
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "PMNTN_SN" : 22969,
+        "MNTN_CODE" : "301700804",
+        "MNTN_NM" : "변동근린공원",
+        "PMNTN_NM" : "도마동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.05,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "301700804"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              233622.23190000001,
+              414405.99180000089
+            ],
+            [
+              233627.26250000391,
+              414399.73399999924
+            ],
+            [
+              233630.17740000132,
+              414396.10790000111
+            ],
+            [
+              233631.34450000245,
+              414390.85850000009
+            ],
+            [
+              233627.96449999977,
+              414387.37969999947
+            ],
+            [
+              233621.61369999964,
+              414383.30690000392
+            ],
+            [
+              233613.92980000377,
+              414380.64670000225
+            ],
+            [
+              233607.47200000193,
+              414381.48110000417
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

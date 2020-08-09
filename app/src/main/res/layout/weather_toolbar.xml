@@ -1,0 +1,30 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:src="@color/colorPrimary"
+        android:id="@+id/todayWeatherImg"
+        />
+
+    <TextView
+        android:id="@+id/todayDateTxt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/myfont"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="2020년 12월 1일 수요일"/>
+
+    <TextView
+        android:id="@+id/todayTempTxt"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/myfont"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="최고 온도\n 현재 온도\n 최하 온도"/>
+</LinearLayout>

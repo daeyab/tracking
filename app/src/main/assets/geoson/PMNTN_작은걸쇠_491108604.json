@@ -1,0 +1,376 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 44598,
+        "MNTN_CODE" : "491108604",
+        "MNTN_NM" : "작은걸쇠",
+        "PMNTN_NM" : "하례리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.06,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491108604"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              164529.19939999934,
+              76528.851799998432
+            ],
+            [
+              164520.097000001,
+              76524.809599999338
+            ],
+            [
+              164514.15039999969,
+              76520.415500001982
+            ],
+            [
+              164506.81359999999,
+              76519.577800000086
+            ],
+            [
+              164502.67989999987,
+              76519.455300001428
+            ],
+            [
+              164496.0959999999,
+              76517.687100002542
+            ],
+            [
+              164489.14110000059,
+              76519.608199998736
+            ],
+            [
+              164485.0025000032,
+              76520.661000002176
+            ],
+            [
+              164481.21100000013,
+              76523.232500001788
+            ],
+            [
+              164477.73730000108,
+              76520.794300001115
+            ],
+            [
+              164475.64958065283,
+              76516.849455822259
+            ],
+            [
+              164475.55989999976,
+              76516.680000001565
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SN" : 44599,
+        "MNTN_CODE" : "491108604",
+        "MNTN_NM" : "작은걸쇠",
+        "PMNTN_NM" : "하례리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.06,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491108604"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              164475.55989999976,
+              76516.680000001565
+            ],
+            [
+              164475.77836831752,
+              76516.52095066011
+            ],
+            [
+              164480.43709999975,
+              76513.129300002009
+            ],
+            [
+              164483.37990000006,
+              76508.405300000682
+            ],
+            [
+              164488.76450000145,
+              76505.202800000086
+            ],
+            [
+              164494.79860000033,
+              76503.212600002065
+            ],
+            [
+              164503.34350000136,
+              76499.24459999986
+            ],
+            [
+              164507.9852,
+              76494.115200001746
+            ],
+            [
+              164511.96040000301,
+              76487.768400004134
+            ],
+            [
+              164514.42160000093,
+              76479.85339999944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SN" : 44600,
+        "MNTN_CODE" : "491108604",
+        "MNTN_NM" : "작은걸쇠",
+        "PMNTN_NM" : "하례리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.14,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 2,
+        "PMNTN_GODN" : 2,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491108604"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              164440.1957000019,
+              76402.71400000155
+            ],
+            [
+              164441.6018000003,
+              76407.649900000542
+            ],
+            [
+              164444.50069999974,
+              76410.640500001609
+            ],
+            [
+              164450.89450000133,
+              76414.484799999744
+            ],
+            [
+              164455.26350000128,
+              76418.264200001955
+            ],
+            [
+              164459.33060000092,
+              76424.306400001049
+            ],
+            [
+              164461.69430000242,
+              76431.466300003231
+            ],
+            [
+              164463.15660000127,
+              76441.565200001001
+            ],
+            [
+              164460.31530000083,
+              76448.035000000149
+            ],
+            [
+              164457.65240000095,
+              76453.280200002715
+            ],
+            [
+              164452.8097000001,
+              76465.468399999663
+            ],
+            [
+              164450.13800000213,
+              76470.892500000075
+            ],
+            [
+              164443.1706000017,
+              76482.371900001541
+            ],
+            [
+              164443.16909999959,
+              76490.893899999559
+            ],
+            [
+              164447.55879999977,
+              76498.47309999913
+            ],
+            [
+              164452.95860000234,
+              76502.006899999455
+            ],
+            [
+              164458.71850000042,
+              76504.844900002703
+            ],
+            [
+              164463.19900000002,
+              76509.368400000036
+            ],
+            [
+              164469.36200000159,
+              76513.558299999684
+            ],
+            [
+              164475.55989999976,
+              76516.680000001565
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

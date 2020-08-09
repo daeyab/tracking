@@ -1,0 +1,432 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 26679,
+        "MNTN_CODE" : "428300204",
+        "MNTN_NM" : "북분리",
+        "PMNTN_NM" : "북분리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.27,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 5,
+        "PMNTN_GODN" : 3,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "428301901"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              353505.15800000075,
+              599626.20990000106
+            ],
+            [
+              353511.78189999983,
+              599634.74500000291
+            ],
+            [
+              353523.1698000012,
+              599642.38190000132
+            ],
+            [
+              353527.25710000098,
+              599647.68420000188
+            ],
+            [
+              353531.74280000012,
+              599650.2509000022
+            ],
+            [
+              353536.01599999983,
+              599652.97400000133
+            ],
+            [
+              353540.80240000039,
+              599655.51799999923
+            ],
+            [
+              353546.68320000079,
+              599673.74019999988
+            ],
+            [
+              353549.72260000091,
+              599692.0979999993
+            ],
+            [
+              353552.73780000024,
+              599700.97180000134
+            ],
+            [
+              353554.3853000002,
+              599704.97819999978
+            ],
+            [
+              353554.82899999991,
+              599709.90589999966
+            ],
+            [
+              353556.28139999975,
+              599713.06479999982
+            ],
+            [
+              353560.80719999969,
+              599714.50450000353
+            ],
+            [
+              353558.82430000138,
+              599718.30399999954
+            ],
+            [
+              353553.21760000009,
+              599718.95940000005
+            ],
+            [
+              353546.15749999974,
+              599722.83579999954
+            ],
+            [
+              353536.2844000021,
+              599727.6699000001
+            ],
+            [
+              353531.37480000034,
+              599732.16409999877
+            ],
+            [
+              353526.93080000207,
+              599736.01520000212
+            ],
+            [
+              353526.61200000159,
+              599740.09170000255
+            ],
+            [
+              353525.41789999977,
+              599748.30520000122
+            ],
+            [
+              353523.07230000105,
+              599759.44050000049
+            ],
+            [
+              353522.09160000086,
+              599766.85700000264
+            ],
+            [
+              353519.4692000011,
+              599779.56800000183
+            ],
+            [
+              353518.38829999976,
+              599790.9868000038
+            ],
+            [
+              353526.14430000074,
+              599794.5193000026
+            ],
+            [
+              353538.26370000187,
+              599799.24420000426
+            ],
+            [
+              353549.9793999996,
+              599803.47279999964
+            ],
+            [
+              353558.69740000181,
+              599804.97140000202
+            ],
+            [
+              353565.25340000074,
+              599806.28260000236
+            ],
+            [
+              353571.37239999976,
+              599808.46790000238
+            ],
+            [
+              353575.18610000052,
+              599809.59259999916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SN" : 26680,
+        "MNTN_CODE" : "428300204",
+        "MNTN_NM" : "북분리",
+        "PMNTN_NM" : "북분리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.09,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 2,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "428301901"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              353575.18610000052,
+              599809.59259999916
+            ],
+            [
+              353576.33930000011,
+              599807.00980000198
+            ],
+            [
+              353579.5251000002,
+              599801.77309999987
+            ],
+            [
+              353587.36590000056,
+              599800.78750000149
+            ],
+            [
+              353592.27109999955,
+              599800.74080000259
+            ],
+            [
+              353602.38210000098,
+              599805.98270000145
+            ],
+            [
+              353614.11710000038,
+              599808.43009999953
+            ],
+            [
+              353626.54829999991,
+              599807.1732000038
+            ],
+            [
+              353635.07990000118,
+              599802.35089999996
+            ],
+            [
+              353642.27859999985,
+              599794.87800000422
+            ],
+            [
+              353645.81500000134,
+              599788.53690000065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SN" : 26681,
+        "MNTN_CODE" : "428300204",
+        "MNTN_NM" : "북분리",
+        "PMNTN_NM" : "북분리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.14,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 2,
+        "PMNTN_GODN" : 2,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "428301901"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              353538.80389999971,
+              599934.90510000288
+            ],
+            [
+              353543.66040000133,
+              599925.05250000022
+            ],
+            [
+              353543.28809999954,
+              599917.51140000112
+            ],
+            [
+              353539.01280000061,
+              599908.59750000015
+            ],
+            [
+              353533.52620000113,
+              599899.88849999942
+            ],
+            [
+              353535.35369999986,
+              599886.1790000014
+            ],
+            [
+              353541.7901999997,
+              599863.54050000384
+            ],
+            [
+              353545.82589999959,
+              599857.13099999912
+            ],
+            [
+              353561.27910000086,
+              599842.97369999997
+            ],
+            [
+              353569.47390000056,
+              599825.93720000051
+            ],
+            [
+              353571.38759999909,
+              599818.09980000369
+            ],
+            [
+              353575.18610000052,
+              599809.59259999916
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

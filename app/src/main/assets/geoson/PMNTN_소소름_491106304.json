@@ -1,0 +1,298 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 32681,
+        "MNTN_CODE" : "491106304",
+        "MNTN_NM" : "소소름",
+        "PMNTN_NM" : "토산리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.28,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 5,
+        "PMNTN_GODN" : 3,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491106304"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              177213.82940000296,
+              83451.7285999991
+            ],
+            [
+              177224.2650000006,
+              83460.404100002721
+            ],
+            [
+              177230.22709999979,
+              83471.971800001338
+            ],
+            [
+              177237.42880000081,
+              83483.379300000146
+            ],
+            [
+              177241.43170000147,
+              83495.748400000855
+            ],
+            [
+              177244.63380000181,
+              83505.691999999806
+            ],
+            [
+              177244.48919999972,
+              83516.732200002298
+            ],
+            [
+              177246.4299999997,
+              83525.581399999559
+            ],
+            [
+              177245.10850000102,
+              83532.600900001824
+            ],
+            [
+              177243.79140000232,
+              83538.571100000292
+            ],
+            [
+              177242.111800001,
+              83544.752800004557
+            ],
+            [
+              177241.06610000134,
+              83551.343400001526
+            ],
+            [
+              177238.7153000012,
+              83557.138599999249
+            ],
+            [
+              177235.03440000024,
+              83563.347200000659
+            ],
+            [
+              177229.01300000399,
+              83568.827500000596
+            ],
+            [
+              177223.56819999963,
+              83573.143799999729
+            ],
+            [
+              177217.7499000011,
+              83576.950699999928
+            ],
+            [
+              177212.82529999875,
+              83580.822000004351
+            ],
+            [
+              177207.27680000104,
+              83584.57290000096
+            ],
+            [
+              177201.38300000038,
+              83587.96960000135
+            ],
+            [
+              177196.20630000159,
+              83591.453400002792
+            ],
+            [
+              177192.15250000078,
+              83597.175100000575
+            ],
+            [
+              177192.44710000139,
+              83604.212099999189
+            ],
+            [
+              177192.36690000258,
+              83613.857800003141
+            ],
+            [
+              177190.4048000006,
+              83622.31770000048
+            ],
+            [
+              177186.09920000192,
+              83627.311900001019
+            ],
+            [
+              177178.01530000288,
+              83630.160199999809
+            ],
+            [
+              177175.44830000028,
+              83635.013199999928
+            ],
+            [
+              177174.65780000109,
+              83639.274000003934
+            ],
+            [
+              177170.14280000236,
+              83647.03750000149
+            ],
+            [
+              177164.97520000022,
+              83651.191099999472
+            ],
+            [
+              177161.28730000183,
+              83655.036900004372
+            ],
+            [
+              177162.52139999997,
+              83661.208200002089
+            ],
+            [
+              177170.79899999965,
+              83670.275900000706
+            ],
+            [
+              177176.50439999998,
+              83677.88530000113
+            ],
+            [
+              177180.98980000056,
+              83682.779900003225
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "121807885779",
+    "firebase_url": "https://tracking-279112.firebaseio.com",
+    "project_id": "tracking-279112",
+    "storage_bucket": "tracking-279112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121807885779:android:28c7b95247f0437c7a8b26",
+        "android_client_info": {
+          "package_name": "com.daeyab.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121807885779-lfp7crifpp8qd0e6plis25rujhci4679.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daeyab.tracking",
+            "certificate_hash": "7fe25b383b2d4f83e1a360e57a158b6125e2755a"
+          }
+        },
+        {
+          "client_id": "121807885779-dghoph6nl7tsetgm9g8avrb5v5ote6v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz0UMMZSLiWw0wn9-zeamMx2tdUp8iff0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121807885779-dghoph6nl7tsetgm9g8avrb5v5ote6v1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

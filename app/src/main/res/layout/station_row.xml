@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_margin="10dp"
+        android:layout_height="80dp"
+        android:id="@+id/transportationImg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/myfont"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="start"
+            android:id="@+id/stationStartTxt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/myfont"
+            android:text="end"
+            android:id="@+id/stationEndTxt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="by"
+            android:fontFamily="@font/myfont"
+            android:id="@+id/startionByTxt"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:fontFamily="@font/myfont"
+            android:id="@+id/stationTimeTxt"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="dist"
+            android:fontFamily="@font/myfont"
+            android:id="@+id/stationDistTxt"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

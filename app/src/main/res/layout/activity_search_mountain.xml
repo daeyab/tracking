@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:id="@+id/mainDrawerLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/top_logo"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/myfont"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/myfont"
+                android:id="@+id/searchPreviousBtn"
+                android:text="이전"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:fontFamily="@font/myfont"
+                android:id="@+id/searchHeadText"
+                android:textAlignment="center"
+                android:text="(1/4)"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/myfont"
+                android:layout_gravity="center"
+                android:id="@+id/searchNextBtn"
+                android:text="다음"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/searchMtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/myfont"
+            android:text="mountain name"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/searchMtAddress"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/myfont"
+            android:text="mountain name"/>
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:name="com.naver.maps.map.MapFragment"
+            android:id="@+id/map">
+        </fragment>
+
+        <Button
+            android:layout_width="match_parent"
+            android:fontFamily="@font/myfont"
+            android:layout_height="wrap_content"
+            android:text="정보보기"
+            android:id="@+id/showMtInfoBtn"
+            />
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

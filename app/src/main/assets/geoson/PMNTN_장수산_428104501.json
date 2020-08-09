@@ -1,0 +1,374 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 45353,
+        "MNTN_CODE" : "428104501",
+        "MNTN_NM" : "장수산",
+        "PMNTN_NM" : "신풍리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.69,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 15,
+        "PMNTN_GODN" : 10,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "428104501"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              294240.46389999986,
+              596256.32200000435
+            ],
+            [
+              294232.44039999973,
+              596266.17940000072
+            ],
+            [
+              294219.43860000186,
+              596285.42290000245
+            ],
+            [
+              294200.95870000124,
+              596295.43090000004
+            ],
+            [
+              294185.31099999975,
+              596303.92540000007
+            ],
+            [
+              294175.47530000098,
+              596311.97279999964
+            ],
+            [
+              294168.32200000063,
+              596321.80849999934
+            ],
+            [
+              294158.03920000046,
+              596330.30300000124
+            ],
+            [
+              294147.30940000061,
+              596333.43250000291
+            ],
+            [
+              294127.19090000074,
+              596331.64420000091
+            ],
+            [
+              294114.22559999954,
+              596325.38510000333
+            ],
+            [
+              294099.91909999959,
+              596326.72640000097
+            ],
+            [
+              294086.95380000025,
+              596330.75010000169
+            ],
+            [
+              294073.98859999981,
+              596335.66789999977
+            ],
+            [
+              294059.2350000022,
+              596337.45620000176
+            ],
+            [
+              294042.12679999974,
+              596339.5206000004
+            ],
+            [
+              294027.49250000156,
+              596340.58580000326
+            ],
+            [
+              294018.98390000127,
+              596335.73520000093
+            ],
+            [
+              294005.76449999958,
+              596333.47360000201
+            ],
+            [
+              293997.98529999983,
+              596334.77380000055
+            ],
+            [
+              293991.27910000086,
+              596331.19709999859
+            ],
+            [
+              293984.1259000022,
+              596326.72640000097
+            ],
+            [
+              293977.41970000044,
+              596321.36140000261
+            ],
+            [
+              293969.37230000179,
+              596317.33769999817
+            ],
+            [
+              293961.77200000081,
+              596318.23190000094
+            ],
+            [
+              293948.35969999991,
+              596320.02019999921
+            ],
+            [
+              293936.28849999979,
+              596320.02019999921
+            ],
+            [
+              293926.00580000039,
+              596318.23190000094
+            ],
+            [
+              293915.27589999977,
+              596312.86690000258
+            ],
+            [
+              293908.12260000221,
+              596305.71370000206
+            ],
+            [
+              293901.41650000121,
+              596299.00750000216
+            ],
+            [
+              293893.36909999978,
+              596293.19550000131
+            ],
+            [
+              293887.55700000003,
+              596289.61889999732
+            ],
+            [
+              293876.82720000017,
+              596282.46560000256
+            ],
+            [
+              293869.67389999982,
+              596278.44190000184
+            ],
+            [
+              293862.52070000116,
+              596266.37079999968
+            ],
+            [
+              293854.0262000002,
+              596245.80519999936
+            ],
+            [
+              293847.81900000107,
+              596230.47880000435
+            ],
+            [
+              293839.27259999979,
+              596220.32180000097
+            ],
+            [
+              293817.81290000118,
+              596201.99159999937
+            ],
+            [
+              293792.77650000062,
+              596191.26170000061
+            ],
+            [
+              293775.78749999963,
+              596186.34390000254
+            ],
+            [
+              293762.82230000198,
+              596183.2143000029
+            ],
+            [
+              293752.98660000134,
+              596178.74350000173
+            ],
+            [
+              293747.17459999956,
+              596172.93150000088
+            ],
+            [
+              293741.8096000012,
+              596162.64870000258
+            ],
+            [
+              293738.68010000139,
+              596150.57760000415
+            ],
+            [
+              293735.10350000113,
+              596141.63610000163
+            ],
+            [
+              293731.52680000104,
+              596139.84779999964
+            ],
+            [
+              293725.2677000016,
+              596140.29480000213
+            ],
+            [
+              293721.48639999982,
+              596144.94189999998
+            ],
+            [
+              293720.79700000118,
+              596152.81300000101
+            ],
+            [
+              293718.11450000014,
+              596160.41330000013
+            ],
+            [
+              293710.51420000196,
+              596172.03740000166
+            ],
+            [
+              293704.25509999972,
+              596186.7909000013
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/mainToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:minHeight="?attr/actionBarSize"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/mainSearchText"
+            android:fontFamily="@font/myfont"
+            android:hint="산 이름을 입력하세요."/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="검색"
+            android:fontFamily="@font/myfont"
+            android:id="@+id/mainSearchBtn"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="21dp"
+            android:id="@+id/SmsSOSBtn"
+            android:src="@drawable/ic_baseline_sms_failed_24"/>
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/CallSOSBtn"
+            android:src="@drawable/ic_baseline_call_24"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

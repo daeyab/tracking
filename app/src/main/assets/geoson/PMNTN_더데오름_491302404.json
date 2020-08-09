@@ -1,0 +1,416 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 12089,
+        "MNTN_CODE" : "491302404",
+        "MNTN_NM" : "더데오름",
+        "PMNTN_NM" : "상예동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.13,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 2,
+        "PMNTN_GODN" : 2,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491302404"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              141712.75939999986,
+              76184.530200002715
+            ],
+            [
+              141706.52350000106,
+              76184.258800001815
+            ],
+            [
+              141702.37959999871,
+              76182.795700004324
+            ],
+            [
+              141695.7762000002,
+              76180.029200000688
+            ],
+            [
+              141691.74349999987,
+              76177.158499998972
+            ],
+            [
+              141687.30630000029,
+              76173.624800002202
+            ],
+            [
+              141685.30330000073,
+              76170.531100001186
+            ],
+            [
+              141682.44730000105,
+              76166.749099999666
+            ],
+            [
+              141677.8953999998,
+              76164.257300000638
+            ],
+            [
+              141672.76920000277,
+              76163.601100001484
+            ],
+            [
+              141665.17660000082,
+              76163.852900002152
+            ],
+            [
+              141660.43240000308,
+              76165.05719999969
+            ],
+            [
+              141655.98350000102,
+              76164.24100000225
+            ],
+            [
+              141649.37870000117,
+              76161.397099999711
+            ],
+            [
+              141647.11809999961,
+              76157.151300001889
+            ],
+            [
+              141644.69730000012,
+              76154.304200006649
+            ],
+            [
+              141645.4355000006,
+              76148.970500001684
+            ],
+            [
+              141647.50110000186,
+              76142.636700002477
+            ],
+            [
+              141648.48270000052,
+              76135.841600000858
+            ],
+            [
+              141643.29170000181,
+              76130.599500000477
+            ],
+            [
+              141634.98010000214,
+              76132.730000006035
+            ],
+            [
+              141627.78010000009,
+              76138.317300001159
+            ],
+            [
+              141624.20739999972,
+              76143.003000002354
+            ],
+            [
+              141621.05540000368,
+              76145.606300001964
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SN" : 12090,
+        "MNTN_CODE" : "491302404",
+        "MNTN_NM" : "더데오름",
+        "PMNTN_NM" : "상예동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.09,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 2,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491302404"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              141658.28230000194,
+              76194.934800002724
+            ],
+            [
+              141660.82740000356,
+              76202.86610000208
+            ],
+            [
+              141662.42050000373,
+              76205.962200000882
+            ],
+            [
+              141664.69270000141,
+              76211.982400001958
+            ],
+            [
+              141666.03160000034,
+              76216.20020000264
+            ],
+            [
+              141667.73990000319,
+              76219.861300004646
+            ],
+            [
+              141670.2042000005,
+              76222.197899999097
+            ],
+            [
+              141673.39360000193,
+              76224.275000002235
+            ],
+            [
+              141676.73649999965,
+              76225.530500000343
+            ],
+            [
+              141680.48029999994,
+              76223.7444000002
+            ],
+            [
+              141684.08640000038,
+              76222.291899999604
+            ],
+            [
+              141687.69249999989,
+              76220.850500002503
+            ],
+            [
+              141692.20490000304,
+              76216.730599999428
+            ],
+            [
+              141698.86129999999,
+              76208.161199999973
+            ],
+            [
+              141705.30059999973,
+              76199.11610000208
+            ],
+            [
+              141712.46820000373,
+              76190.344500003383
+            ],
+            [
+              141712.75939999986,
+              76184.530200002715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SN" : 12091,
+        "MNTN_CODE" : "491302404",
+        "MNTN_NM" : "더데오름",
+        "PMNTN_NM" : "상예동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.08,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491302404"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              141712.75939999986,
+              76184.530200002715
+            ],
+            [
+              141712.75939999986,
+              76184.530200002715
+            ],
+            [
+              141717.3554000007,
+              76177.115900000557
+            ],
+            [
+              141723.23350000102,
+              76170.538000002503
+            ],
+            [
+              141726.50399999972,
+              76164.64260000363
+            ],
+            [
+              141732.99579999968,
+              76155.571000004187
+            ],
+            [
+              141735.70370000042,
+              76147.375100001693
+            ],
+            [
+              141738.75460000243,
+              76138.301200002432
+            ],
+            [
+              141742.36630000081,
+              76129.484500002116
+            ],
+            [
+              141743.26870000083,
+              76121.337700001895
+            ],
+            [
+              141748.71810000017,
+              76113.108900001273
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

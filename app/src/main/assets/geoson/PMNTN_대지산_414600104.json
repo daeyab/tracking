@@ -1,0 +1,479 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 12018,
+        "MNTN_CODE" : "414600104",
+        "MNTN_NM" : "대지산",
+        "PMNTN_NM" : " ",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.17,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 3,
+        "PMNTN_GODN" : 2,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "414650401"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              210704.7136000013,
+              525470.41500000097
+            ],
+            [
+              210699.9655000018,
+              525483.83960000426
+            ],
+            [
+              210689.69639999978,
+              525509.73580000177
+            ],
+            [
+              210687.46389999986,
+              525523.13030000217
+            ],
+            [
+              210687.91040000133,
+              525532.50650000013
+            ],
+            [
+              210690.1428000005,
+              525541.88270000182
+            ],
+            [
+              210688.80340000056,
+              525552.15190000273
+            ],
+            [
+              210684.33849999961,
+              525565.99290000089
+            ],
+            [
+              210686.12449999992,
+              525590.54960000142
+            ],
+            [
+              210693.71470000129,
+              525613.76680000313
+            ],
+            [
+              210707.55580000021,
+              525630.73330000229
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SN" : 12019,
+        "MNTN_CODE" : "414600104",
+        "MNTN_NM" : "대지산",
+        "PMNTN_NM" : " ",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.39,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 7,
+        "PMNTN_GODN" : 5,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "414650401"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              210704.7136000013,
+              525470.41500000097
+            ],
+            [
+              210708.4486999996,
+              525461.06890000217
+            ],
+            [
+              210708.89520000201,
+              525457.94349999912
+            ],
+            [
+              210708.89520000201,
+              525448.56730000302
+            ],
+            [
+              210711.57409999985,
+              525441.86999999918
+            ],
+            [
+              210724.07569999993,
+              525435.6192000024
+            ],
+            [
+              210742.82810000144,
+              525431.15430000238
+            ],
+            [
+              210755.32970000058,
+              525430.7079000026
+            ],
+            [
+              210772.74260000139,
+              525430.7079000026
+            ],
+            [
+              210788.8161000004,
+              525436.95870000124
+            ],
+            [
+              210801.76420000009,
+              525444.10240000114
+            ],
+            [
+              210812.92630000133,
+              525452.58559999987
+            ],
+            [
+              210824.08839999977,
+              525468.65910000168
+            ],
+            [
+              210829.44620000105,
+              525483.39310000464
+            ],
+            [
+              210829.44620000105,
+              525495.89470000006
+            ],
+            [
+              210826.3208000008,
+              525507.94979999959
+            ],
+            [
+              210821.40949999914,
+              525519.55839999951
+            ],
+            [
+              210812.92630000133,
+              525527.59520000219
+            ],
+            [
+              210803.55010000151,
+              525531.61350000091
+            ],
+            [
+              210793.72740000021,
+              525528.9346000012
+            ],
+            [
+              210782.11880000122,
+              525532.06000000052
+            ],
+            [
+              210766.49179999996,
+              525541.43620000221
+            ],
+            [
+              210746.40000000037,
+              525552.15190000273
+            ],
+            [
+              210733.00540000014,
+              525559.74210000224
+            ],
+            [
+              210725.86169999931,
+              525567.77880000137
+            ],
+            [
+              210716.9319999991,
+              525578.04800000228
+            ],
+            [
+              210711.12760000024,
+              525593.22849999927
+            ],
+            [
+              210707.55580000021,
+              525611.98090000264
+            ],
+            [
+              210707.55580000021,
+              525630.73330000229
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SN" : 12020,
+        "MNTN_CODE" : "414600104",
+        "MNTN_NM" : "대지산",
+        "PMNTN_NM" : "죽전동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.25,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 4,
+        "PMNTN_GODN" : 3,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "414650401"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              210532.99610000104,
+              525622.15780000202
+            ],
+            [
+              210550.36050000042,
+              525597.20570000261
+            ],
+            [
+              210553.71660000179,
+              525591.2229999993
+            ],
+            [
+              210557.9832000006,
+              525578.94099999964
+            ],
+            [
+              210564.23400000017,
+              525572.24370000139
+            ],
+            [
+              210570.93130000215,
+              525564.65340000205
+            ],
+            [
+              210578.52150000166,
+              525556.17019999959
+            ],
+            [
+              210586.11179999914,
+              525538.75730000436
+            ],
+            [
+              210590.13009999972,
+              525529.82760000043
+            ],
+            [
+              210596.38090000208,
+              525518.21900000051
+            ],
+            [
+              210604.41770000197,
+              525504.37790000252
+            ],
+            [
+              210616.47279999964,
+              525492.32280000299
+            ],
+            [
+              210629.42080000043,
+              525482.50019999966
+            ],
+            [
+              210639.33760000207,
+              525477.98269999959
+            ],
+            [
+              210652.61860000063,
+              525475.04150000215
+            ],
+            [
+              210666.03259999957,
+              525477.14230000041
+            ],
+            [
+              210679.87370000035,
+              525477.14230000041
+            ],
+            [
+              210696.39360000007,
+              525473.57040000334
+            ],
+            [
+              210704.7136000013,
+              525470.41500000097
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SN" : 12021,
+        "MNTN_CODE" : "414600104",
+        "MNTN_NM" : "대지산",
+        "PMNTN_NM" : "죽전동구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.04,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 0,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "414650401"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              210707.55580000021,
+              525630.73330000229
+            ],
+            [
+              210719.61089999974,
+              525667.79150000401
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

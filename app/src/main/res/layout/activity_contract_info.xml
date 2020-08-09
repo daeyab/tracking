@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContractInfoActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/top_logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="구조요청 정보"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/myfont"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:id="@+id/finishedTxt"/>
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/myfont"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="문자 내용\n현재 위도, 현재 경도는 맨 첫줄에 출력됩니다."/>
+
+            <EditText
+                android:id="@+id/SMSText"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/myfont"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:hint="문자 내용을 입력하세요."
+                android:background="@color/quantum_grey300"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="@font/myfont"
+                android:layout_height="wrap_content"
+                android:text="문자가 전송될 번호"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SMSNum"
+                android:hint="긴급문자 연락처를 남겨주세요."
+                android:fontFamily="@font/myfont"
+                android:textAlignment="center"
+                android:background="@color/quantum_grey300"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="@font/myfont"
+                android:layout_height="wrap_content"
+                android:text="전화가 발송될 번호"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CallNum"
+                android:hint="긴급전화 연락처를 남겨주세요."
+                android:fontFamily="@font/myfont"
+                android:textAlignment="center"
+                android:background="@color/quantum_grey300" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="@font/myfont"
+                android:layout_height="wrap_content"
+                android:text="복귀할 집의 위치를 클릭해주세요"
+                />
+
+            <fragment
+                android:id="@+id/homeMap"
+                android:name="com.naver.maps.map.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/myfont"
+
+        android:layout_margin="10dp"
+        android:text="확인"
+        android:id="@+id/confirmInfo"
+        />
+
+</LinearLayout>

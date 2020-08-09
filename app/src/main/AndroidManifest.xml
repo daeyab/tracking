@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.daeyab.tracking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".LogListActivity"></activity>
+        <activity
+            android:name=".FinishedHikingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartHikingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShowRouteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShowMountainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContractInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchMountainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="o0fv21eqvc" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

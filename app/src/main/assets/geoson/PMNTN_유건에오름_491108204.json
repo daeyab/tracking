@@ -1,0 +1,436 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 42873,
+        "MNTN_CODE" : "491108204",
+        "MNTN_NM" : "유건에오름",
+        "PMNTN_NM" : "난산리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.26,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 5,
+        "PMNTN_GODN" : 3,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491108204"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              185496.71960000042,
+              90961.853600000963
+            ],
+            [
+              185503.59040000103,
+              90962.599400004372
+            ],
+            [
+              185518.43039999902,
+              90959.14630000107
+            ],
+            [
+              185532.24130000081,
+              90954.890100000426
+            ],
+            [
+              185544.2433999991,
+              90954.303400000557
+            ],
+            [
+              185558.44750000071,
+              90956.004900000989
+            ],
+            [
+              185569.97360000107,
+              90957.822400001809
+            ],
+            [
+              185580.74810000416,
+              90959.996700000018
+            ],
+            [
+              185596.55950000137,
+              90963.088500002399
+            ],
+            [
+              185611.7891000025,
+              90966.066600000486
+            ],
+            [
+              185626.34830000065,
+              90970.748600002378
+            ],
+            [
+              185642.13720000163,
+              90975.826100001112
+            ],
+            [
+              185658.09609999973,
+              90984.571100002155
+            ],
+            [
+              185668.78220000025,
+              90989.263900000602
+            ],
+            [
+              185681.75260000117,
+              90994.722600003704
+            ],
+            [
+              185696.10500000417,
+              91001.915100002661
+            ],
+            [
+              185703.78310000058,
+              91004.765200002119
+            ],
+            [
+              185716.31490000244,
+              91012.890799999237
+            ],
+            [
+              185720.73200000171,
+              91021.981000002474
+            ],
+            [
+              185721.27040000074,
+              91030.804600000381
+            ],
+            [
+              185725.5933000017,
+              91035.764200003818
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SN" : 42874,
+        "MNTN_CODE" : "491108204",
+        "MNTN_NM" : "유건에오름",
+        "PMNTN_NM" : "난산리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.11,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 2,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491108204"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              185725.5933000017,
+              91035.764200003818
+            ],
+            [
+              185735.75160000101,
+              91035.185100002214
+            ],
+            [
+              185743.80830000062,
+              91035.946600003168
+            ],
+            [
+              185753.20859999955,
+              91037.638299999759
+            ],
+            [
+              185759.06380000152,
+              91040.80890000239
+            ],
+            [
+              185766.28509999998,
+              91046.17300000228
+            ],
+            [
+              185773.84420000017,
+              91050.597000000998
+            ],
+            [
+              185779.85300000291,
+              91054.235400004312
+            ],
+            [
+              185786.41340000276,
+              91057.547399999574
+            ],
+            [
+              185791.8143000016,
+              91061.554500002414
+            ],
+            [
+              185797.61030000355,
+              91065.946300001815
+            ],
+            [
+              185802.81919999979,
+              91065.960800001398
+            ],
+            [
+              185806.472000001,
+              91060.767599999905
+            ],
+            [
+              185812.55399999954,
+              91059.239100001752
+            ],
+            [
+              185815.90510000102,
+              91067.23060000129
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SN" : 42875,
+        "MNTN_CODE" : "491108204",
+        "MNTN_NM" : "유건에오름",
+        "PMNTN_NM" : "난산리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.24,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 4,
+        "PMNTN_GODN" : 3,
+        "PMNTN_MTRQ" : " ",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "491108204"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              185725.5933000017,
+              91035.764200003818
+            ],
+            [
+              185707.10149999987,
+              91036.531700003892
+            ],
+            [
+              185690.67870000005,
+              91034.71430000104
+            ],
+            [
+              185675.94200000074,
+              91030.277400001884
+            ],
+            [
+              185660.70069999993,
+              91024.414799999446
+            ],
+            [
+              185647.01040000282,
+              91017.869000000879
+            ],
+            [
+              185633.27450000308,
+              91013.894400002435
+            ],
+            [
+              185626.98410000186,
+              91010.794600000605
+            ],
+            [
+              185616.47829999868,
+              91006.738800000399
+            ],
+            [
+              185603.05159999989,
+              91006.335900001228
+            ],
+            [
+              185591.98350000009,
+              91002.757500002161
+            ],
+            [
+              185579.97930000164,
+              90992.690600000322
+            ],
+            [
+              185565.40440000035,
+              90986.68900000304
+            ],
+            [
+              185557.68520000018,
+              90985.924800002947
+            ],
+            [
+              185547.69039999973,
+              90984.012600000948
+            ],
+            [
+              185539.77689999994,
+              90981.330000001937
+            ],
+            [
+              185530.2675999999,
+              90978.251199999824
+            ],
+            [
+              185525.65190000273,
+              90976.916200000793
+            ],
+            [
+              185521.36270000134,
+              90976.135199999437
+            ],
+            [
+              185510.41340000182,
+              90973.193900002167
+            ],
+            [
+              185499.36660000123,
+              90974.543400000781
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

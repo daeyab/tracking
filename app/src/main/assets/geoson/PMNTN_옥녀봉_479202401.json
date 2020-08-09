@@ -1,0 +1,407 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "PMNTN_SN" : "PMNTN_SN",
+    "MNTN_CODE" : "MNTN_CODE",
+    "MNTN_NM" : "MNTN_NM",
+    "PMNTN_NM" : "PMNTN_NM",
+    "PMNTN_MAIN" : "PMNTN_MAIN",
+    "PMNTN_LT" : "PMNTN_LT",
+    "PMNTN_DFFL" : "PMNTN_DFFL",
+    "PMNTN_UPPL" : "PMNTN_UPPL",
+    "PMNTN_GODN" : "PMNTN_GODN",
+    "PMNTN_MTRQ" : "PMNTN_MTRQ",
+    "PMNTN_CNRL" : "PMNTN_CNRL",
+    "PMNTN_CLS_" : "PMNTN_CLS_",
+    "PMNTN_RISK" : "PMNTN_RISK",
+    "PMNTN_RECO" : "PMNTN_RECO",
+    "DATA_STDR_" : "DATA_STDR_",
+    "MNTN_ID" : "MNTN_ID"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkt" : "PROJCS[\"PCS_ITRF2000_TM\",GEOGCS[\"GCS_ITRF_2000\",DATUM[\"D_ITRF_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",200000.0],PARAMETER[\"False_Northing\",600000.0],PARAMETER[\"Central_Meridian\",127.0],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",38.0],UNIT[\"Meter\",1.0]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "PMNTN_SN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_SN"
+    },
+    {
+      "name" : "MNTN_CODE",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_CODE",
+      "length" : 9
+    },
+    {
+      "name" : "MNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_NM",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_NM",
+      "length" : 50
+    },
+    {
+      "name" : "PMNTN_MAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MAIN",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_LT",
+      "type" : "esriFieldTypeSingle",
+      "alias" : "PMNTN_LT"
+    },
+    {
+      "name" : "PMNTN_DFFL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_DFFL",
+      "length" : 8
+    },
+    {
+      "name" : "PMNTN_UPPL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_UPPL"
+    },
+    {
+      "name" : "PMNTN_GODN",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "PMNTN_GODN"
+    },
+    {
+      "name" : "PMNTN_MTRQ",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_MTRQ",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_CNRL",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CNRL",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_CLS_",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_CLS_",
+      "length" : 1
+    },
+    {
+      "name" : "PMNTN_RISK",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RISK",
+      "length" : 200
+    },
+    {
+      "name" : "PMNTN_RECO",
+      "type" : "esriFieldTypeString",
+      "alias" : "PMNTN_RECO",
+      "length" : 1
+    },
+    {
+      "name" : "DATA_STDR_",
+      "type" : "esriFieldTypeString",
+      "alias" : "DATA_STDR_",
+      "length" : 10
+    },
+    {
+      "name" : "MNTN_ID",
+      "type" : "esriFieldTypeString",
+      "alias" : "MNTN_ID",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "PMNTN_SN" : 39345,
+        "MNTN_CODE" : "479202401",
+        "MNTN_NM" : "옥녀봉",
+        "PMNTN_NM" : "가곡리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.06,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : "토반",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "479202401"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              354920.52390001062,
+              472547.59280000441
+            ],
+            [
+              354915.9665000122,
+              472545.90690000728
+            ],
+            [
+              354914.76580001507,
+              472541.74630000442
+            ],
+            [
+              354912.50120001379,
+              472535.35510000587
+            ],
+            [
+              354912.00680000987,
+              472527.1340000052
+            ],
+            [
+              354909.15890001133,
+              472515.80340000242
+            ],
+            [
+              354906.4247000115,
+              472502.70460000075
+            ],
+            [
+              354901.20300001092,
+              472498.20790000074
+            ],
+            [
+              354896.28800001182,
+              472496.43129999936
+            ],
+            [
+              354893.21960001159,
+              472497.00690000318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "PMNTN_SN" : 39346,
+        "MNTN_CODE" : "479202401",
+        "MNTN_NM" : "옥녀봉",
+        "PMNTN_NM" : "지동리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.12,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 2,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : "토반",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "479202401"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              354862.10680001136,
+              472457.98470000178
+            ],
+            [
+              354857.113000012,
+              472457.13759999722
+            ],
+            [
+              354850.22180001345,
+              472447.82890000194
+            ],
+            [
+              354841.92490001209,
+              472426.08809999935
+            ],
+            [
+              354834.55490001105,
+              472420.69940000027
+            ],
+            [
+              354831.39880001172,
+              472414.4664000012
+            ],
+            [
+              354829.07620001212,
+              472411.17650000192
+            ],
+            [
+              354824.33620001283,
+              472404.33410000429
+            ],
+            [
+              354822.83030001353,
+              472395.67349999957
+            ],
+            [
+              354820.28800001182,
+              472391.54849999957
+            ],
+            [
+              354820.60780001152,
+              472386.22300000116
+            ],
+            [
+              354817.91690001078,
+              472381.07269999944
+            ],
+            [
+              354824.74970001075,
+              472380.02459999733
+            ],
+            [
+              354828.36320001073,
+              472374.26170000248
+            ],
+            [
+              354830.14850001223,
+              472367.29190000147
+            ],
+            [
+              354834.95750001166,
+              472362.11110000312
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "PMNTN_SN" : 39347,
+        "MNTN_CODE" : "479202401",
+        "MNTN_NM" : "옥녀봉",
+        "PMNTN_NM" : "지동리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.06,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : "토반",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "479202401"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              354862.10680001136,
+              472457.98470000178
+            ],
+            [
+              354867.29620001093,
+              472454.08479999937
+            ],
+            [
+              354873.41600001138,
+              472451.6192000024
+            ],
+            [
+              354881.04480001424,
+              472465.0605999995
+            ],
+            [
+              354883.19400001224,
+              472471.9020000007
+            ],
+            [
+              354885.44130001217,
+              472479.28799999878
+            ],
+            [
+              354887.47420001216,
+              472487.35000000522
+            ],
+            [
+              354890.86460001208,
+              472491.37440000102
+            ],
+            [
+              354893.21960001159,
+              472497.00690000318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "PMNTN_SN" : 39348,
+        "MNTN_CODE" : "479202401",
+        "MNTN_NM" : "옥녀봉",
+        "PMNTN_NM" : "지동리구간",
+        "PMNTN_MAIN" : " ",
+        "PMNTN_LT" : 0.06,
+        "PMNTN_DFFL" : "쉬움",
+        "PMNTN_UPPL" : 1,
+        "PMNTN_GODN" : 1,
+        "PMNTN_MTRQ" : "토반",
+        "PMNTN_CNRL" : " ",
+        "PMNTN_CLS_" : " ",
+        "PMNTN_RISK" : " ",
+        "PMNTN_RECO" : " ",
+        "DATA_STDR_" : "2016-12-31",
+        "MNTN_ID" : "479202401"
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              354893.21960001159,
+              472497.00690000318
+            ],
+            [
+              354890.22260001302,
+              472497.56920000724
+            ],
+            [
+              354881.88390001375,
+              472498.92699999921
+            ],
+            [
+              354877.63290001452,
+              472497.40730000101
+            ],
+            [
+              354872.40660001151,
+              472484.56340000406
+            ],
+            [
+              354866.31730001327,
+              472473.01440000348
+            ],
+            [
+              354862.87200001255,
+              472464.66830000654
+            ],
+            [
+              354862.10680001136,
+              472457.98470000178
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
